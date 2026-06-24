@@ -3,7 +3,7 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 
 
-# git gitsync 확인을 위한 주석
+# gitsync 확인을 위한 주석
 default_args = {
     'owner': 'doyeon',
     'depends_on_past': False,
